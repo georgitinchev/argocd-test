@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: weather-check
-          image: goti1031/demo-app:v20250610142819
+          image: goti1031/demo-app:v20250610144057
           ports:
             - containerPort: 5000
