@@ -13,7 +13,7 @@ spec:
         app: demo-app
     spec:
       containers:
-        - name: demo-app
-          image:
+        - name: weather-check
+          image: goti1031/demo-app:tagname
           ports:
             - containerPort: 5000
